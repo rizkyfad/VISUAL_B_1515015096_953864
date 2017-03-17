@@ -110,6 +110,11 @@ public class FormBiodata extends javax.swing.JFrame {
         jLabel5.setText("PROGRAM STUDI");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "S1 Teknik Komputer", "S1 Teknik Informasi", "S1 Teknik Informatika" }));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel6.setText("DAERAH ASAL");
@@ -305,6 +310,10 @@ public class FormBiodata extends javax.swing.JFrame {
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField3ActionPerformed
+
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox1ActionPerformed
 
     /**
      * @param args the command line arguments
