@@ -197,10 +197,12 @@
                               <Component id="jScrollPane1" alignment="1" min="-2" pref="59" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="tambah" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="tampil" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="reset" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tambah" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="reset" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="tampilan" min="-2" pref="141" max="-2" attributes="0"/>
